@@ -81,7 +81,7 @@ var createArray = (input, input2) => {
         return newArray
 }
 
-// console.log(createArray("Chris", "Farley"));
+console.log(createArray("Chris", "Farley"));
 
 // // 2c. STRETCH: Write a function that accepts two variables and returns a string in all lowercase letters. Expected output: "snoopy garfield"
 
@@ -90,7 +90,7 @@ var lowercaseMachine = (str3, str4) => {
     return newString.toLowerCase()
 } 
 
-// console.log(lowercaseMachine("garFiELd", "GUS"))
+console.log(lowercaseMachine("garFiELd", "GUS"))
 
 
 // ------------------------------ Consider the following variable:
@@ -153,8 +153,7 @@ var testString = "thisisateststring";
 // 4a. Write a function that takes the variable as an argument and returns the string without vowels. Expected output: "thsstststrng"
 const consonantFinder = (str) =>{
     let testArr = Array.from(str);
-    let testArr2 = testArr.filter(value => {
-        return value !== "a" && value !== "e" && value !== "i" && value !== "o" && value !== "u" 
+    let testArr2 turn value !== "a" && value !== "e" && value !== "i" && value !== "o" && value !== "u" 
     })
     return testArr2.join("");
 }
